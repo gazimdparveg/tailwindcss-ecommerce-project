@@ -25,11 +25,11 @@
    <header class="bg-slate-600 fixed top-0 left-0 w-full z-50">
     <nav class="container max-w-5xl mx-auto h-12 justify-between items-center flex relative  bg-red-600 ">
       <div>
-        <a class="text-2xl font-oswold uppercase" href="#">
+        <a class="text-2xl ml-5 font-oswold uppercase" href="#">
           Bur<span class="font-oswold text-yellow-500">Ger</span>
         </a>
       </div>
-    <div class="absolute top-0 left-0 w-full py-14 bg-menucolor border-b border-yellow-50 ">
+    <div id="navmenu" class="hidden absolute top-0 left-0 w-full py-14 bg-menucolor border-b border-yellow-50 ">
       <ul class="flex flex-col text-center gap-3" >
         <li class="hover:text-yellow-400 duration-500 ease-in"><a href="#">Home</a></li>
         <li class="duration-500 ease-in hover:text-yellow-400"><a href="#">Iteam</a></li>
@@ -38,14 +38,14 @@
       </ul>
     
 
-   <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer">
+   <div id="closenav" class=" absolute top-[0.7rem] right-4 text-2xl cursor-pointer">
     <i class="ri-close-line"></i>
    </div>
   </div>
-   <div>
-    <i class="ri-moon-line"></i>
-    <div>
-      <i class="ri-menu-2-line"></i>
+   <div  class="flex gap-5 items-center cursor-pointer mr-5 text-2xl">
+    <i class="ri-moon-line pr-7"></i>
+    <div id="humburgur">
+      <i class="ri-menu-2-line flex gap-4 pl-7 items-center cursor-pointer text-2xl"></i>
     </div>
    </div>
 
@@ -79,6 +79,6 @@
   <!--~~~~~~~~~~~~~~~ Scroll Reveal ~~~~~~~~~~~~~~~-->
 
   <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->
-
+<script src="main.js"></script>
   </body>
 </html>
