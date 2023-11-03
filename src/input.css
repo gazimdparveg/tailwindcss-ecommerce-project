@@ -8,8 +8,8 @@
 @layer {
     body {
     color:#fff;
-    background: blue;
-    font-family:  font-dmsans;
+    background: rgb(1, 1, 247);
+    font-family:  Oswald;
     font-weight: 500;
     }
 }

@@ -12,6 +12,7 @@ module.exports = {
         mycolor:"#01A8F7",
         textcolor: "#fff",
         menucolor: "#1F1F1F",
+        navcolor:'blue',
       }
     },
     container: {
@@ -22,7 +23,7 @@ module.exports = {
       }
     }, 
    fontFamily: {
-    oswold:['Oswold', 'sans-serif,'],
+    oswold:['Oswald', 'sans-serif,'],
     dmsans:['DM Sans','sans-serif']
    }    
   },
