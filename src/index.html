@@ -23,14 +23,14 @@
   <body>
     <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
    <header class="bg-navcolor fixed top-0 left-0 w-full z-50">
-    <nav class="container max-w-5xl mx-auto h-12 justify-between items-center flex relative  bg-red-600 ">
+    <nav class="container max-w-5xl mx-auto  h-12 justify-between items-center flex relative  bg-red-600 ">
       <div>
         <a class="text-2xl ml-5 font-oswold uppercase" href="#">
           Bur<span class="font-oswold text-yellow-500">Ger</span>
         </a>
       </div>
-    <div id="navmenu" class="hidden absolute top-0 left-0 w-full py-14 bg-menucolor border-b border-yellow-50 md:static md:block md:border-none md:w-auto md:ml-auto  ">
-      <ul class="flex flex-col text-center gap-3 md:flex-row md:mr-5" >
+    <div id="navmenu" class="hidden absolute top-0 left-0 w-full py-14   border-b border-yellow-50 md:static md:block md:border-none md:w-auto md:ml-auto  ">
+      <ul class="flex flex-col text-center gap-3 md:flex-row md:mr-5 " >
         <li class="hover:text-yellow-400 duration-500 ease-in"><a href="#">Home</a></li>
         <li class="duration-500 ease-in hover:text-yellow-400"><a href="#">Iteam</a></li>
         <li class="duration-500 ease-in hover:text-yellow-400"><a href="#">About</a></li> 
@@ -52,22 +52,40 @@
     </nav>
    </header>
     <main>
+    
     <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
-    <section id="main">
-      <div>
-        <div class="w-auto ">
-          <img src="./img/home-image.png" alt="banner image">
+    <section class=" pb-15 md:pt-30 flex w-auto h-auto " id="main">
+      <div class="container flex flex-col  items-center gap-10">
+        <div class=" mx-auto ">
+          <img class="pt-20 w-60" src="./img/home-image.png" alt="banner image">
         </div>
-        <div>
-          <h1>HAPPY TUMMY WITH TASTY BURGERS</h1>
-          <div></div>
-          <p>
+        <div class="text-center">
+          <h1 class="font-oswold font-bold uppercase text-4xl">HAPPY TUMMY WITH TASTY BURGERS</h1>
+          <div class="w-40 h-1 m-auto mt-3 mb-3  bg-orange-400 gap-5 "></div>
+          <p> 
             Texy allows you to enter content using an easy to read Texy syntax which is filtered into structurally valid HTML. No knowledge of HTML is required.
           </p>
         </div>
         <div>
+          <div>
+            <i class="fa-solid fa-utensils"></i>
+            <br/>
+            <p>Delicius</p>
+          </div>
+           
+          <div>
+            <i class="fa-solid fa-droplet"></i>
+            <br/>
+            <p>Fresh</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-envira"></i>
+            <br/>
+            <p>Orgainc</p>
+          </div>
            
         </div>
+        <a href="#">Lern More</a>
       </div>
     </section>
     <!--~~~~~~~~~~~~~~~ Category ~~~~~~~~~~~~~~~-->
