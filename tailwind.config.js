@@ -13,8 +13,18 @@ module.exports = {
         textcolor: "#fff",
         menucolor: "#1F1F1F",
         navcolor:'blue',
+      },
+      keyframes: {
+        move: {
+          "50%": {transform: 'translateY(-1rem)'}
+        }
+      },
+      animation: {
+        'movingY': 'move 2s linear infinite'
       }
+
     },
+    
     container: {
       center: true,
       padding: {
