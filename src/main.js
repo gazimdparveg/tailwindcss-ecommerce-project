@@ -1,5 +1,6 @@
 const  humburgur = document.getElementById('humburgur');
 const navmenu    = document.getElementById('navmenu');
+const mymune    = document.getElementById('mymune');
 const closenav    = document.getElementById('closenav');
 
 humburgur.addEventListener('click',()=>{
@@ -11,4 +12,10 @@ closenav.addEventListener('click',()=>{
     navmenu.classList.add('hidden');
     humburgur.classList.remove('hidden');
 });
+
+closenav.addEventListener('click',()=>{
+    mymune.classList.add('hidden');
+    
+});
+
 
