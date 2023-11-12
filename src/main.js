@@ -13,9 +13,15 @@ closenav.addEventListener('click',()=>{
     humburgur.classList.remove('hidden');
 });
 
-closenav.addEventListener('click',()=>{
-    mymune.classList.add('hidden');
-    
-});
+const tabs = document.querySelectorAll(".tab_cl ul li");
+
+tabs.forEach(tab =>{
+    tab.addEventListener("click", () => {
+        tabs.forEach(tab=>{
+            tab.classList.remove("active")
+        })
+        tab.classList.add("active")
+    } )
+})
 
 
