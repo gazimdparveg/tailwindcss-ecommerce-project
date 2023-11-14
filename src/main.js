@@ -2,6 +2,7 @@ const  humburgur = document.getElementById('humburgur');
 const navmenu    = document.getElementById('navmenu');
 const mymune    = document.getElementById('mymune');
 const closenav    = document.getElementById('closenav');
+const meyshow = document.getElementById('meyshow');
 
 humburgur.addEventListener('click',()=>{
     navmenu.classList.remove('hidden');
@@ -12,6 +13,7 @@ closenav.addEventListener('click',()=>{
     navmenu.classList.add('hidden');
     humburgur.classList.remove('hidden');
 });
+
 
 const tabs = document.querySelectorAll(".tab_cl ul li");
 
