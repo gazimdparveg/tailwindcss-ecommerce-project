@@ -3,15 +3,18 @@ const navmenu    = document.getElementById('navmenu');
 const mymune    = document.getElementById('mymune');
 const closenav    = document.getElementById('closenav');
 const meyshow = document.getElementById('meyshow');
+const mbg = document.querySelectorAll('.mbg');
 
 humburgur.addEventListener('click',()=>{
     navmenu.classList.remove('hidden');
     humburgur.classList.add('hidden');
+    navmenu.classList.add('mbg');
 });
 
 closenav.addEventListener('click',()=>{
     navmenu.classList.add('hidden');
     humburgur.classList.remove('hidden');
+    navmenu.classList.remove('mbg');
 });
 
 
